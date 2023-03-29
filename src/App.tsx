@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import UseCallbackExample from './components/hooks/UseCallbackExample'
 import UseDebugValueExample from './components/hooks/UseDebugValueExample'
 import UseTransitionExample from './components/hooks/UseTransitionExample'
@@ -8,6 +7,7 @@ import UserDeferredValueExample from './components/hooks/UseDeferredValueExample
 import UseIdExample from './components/hooks/UseIdExample'
 import PortalsExample from './components/PortalsExample'
 import FormExample from './components/FormExample'
+import PropsInheritanceExample from './components/PropsInheritanceExample'
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
       <UseIdExample />
       <PortalsExample />
       <FormExample />
+      <PropsInheritanceExample />
     </div>
   )
 }
